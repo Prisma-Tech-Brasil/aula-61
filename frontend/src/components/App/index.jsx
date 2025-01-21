@@ -13,7 +13,7 @@ export default function App() {
   return (
     <>
       <Header handleShowMusic={handleShowMusic} title="Tocando Agora" />
-      <Playlist />
+      <Playlist showPlaylist={!showProgressBar} />
       <NowPlaying showProgressBar={showProgressBar} />
     </>
   );

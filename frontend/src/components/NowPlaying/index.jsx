@@ -6,9 +6,8 @@ export default function NowPlaying({ showProgressBar }) {
   return (
     <div
       className={`${
-        showProgressBar
-          ? "mt-6"
-          : "flex flex-row items-center space-x-4 justify-between mt-6"
+        !showProgressBar &&
+        `fixed bottom-0 left-0 w-full flex flex-row items-center justify-between p-4 rounded-custom-glass bg-glass-light shadow-custom-glass backdrop-blur-md`
       }`}
     >
       <div
