@@ -31,7 +31,7 @@ export default function PlayerController(props) {
       </div>
       {props.showControlButtons && (
         <>
-          <div className="w-10 h-10 rounded-full bg-slate-900 p-2 flex items-center justify-center">
+          <div className="w-10 h-10 rounded-full bg-slate-900 p-2 flex items-center justify-center rotate-180">
             <img
               className="w-full h-full"
               src={skip}

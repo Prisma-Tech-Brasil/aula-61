@@ -1,6 +1,6 @@
 import ProgressBar from "./ProgressBar";
 import PlayerController from "./PlayerController";
-import icarus from "/../assets/icarus-bk.jpeg";
+import icarus from "../assets/icarus-bk.jpeg";
 
 export default function NowPlaying(props) {
   return (
