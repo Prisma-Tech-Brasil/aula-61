@@ -1,7 +1,7 @@
-import shuffle from "../../assets/shuffle.svg";
-import skip from "../../assets/skip.svg";
-import pause from "../../assets/pause.svg";
-import repeat from "../../assets/repeat.svg";
+import shuffle from "../assets/shuffle.svg";
+import skip from "../assets/skip.svg";
+import pause from "../assets/pause.svg";
+import repeat from "../assets/repeat.svg";
 
 export default function PlayerController(props) {
   return (

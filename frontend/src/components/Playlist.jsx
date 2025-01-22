@@ -1,5 +1,5 @@
-import icarusBk from "../../assets/icarus-bk.jpeg";
-import hearth from "../../assets/hearth-liked.svg";
+import icarusBk from "../assets/icarus-bk.jpeg";
+import hearth from "../assets/hearth-liked.svg";
 
 const musics = [
   {

@@ -1,7 +1,7 @@
 import { useState } from "react";
-import Header from "../Header";
-import NowPlaying from "../NowPlaying";
-import Playlist from "../Playlist";
+import Header from "./Header";
+import NowPlaying from "./NowPlaying";
+import Playlist from "./Playlist";
 
 export default function App() {
   const [showProgressBar, setShowProgressBar] = useState(true);
